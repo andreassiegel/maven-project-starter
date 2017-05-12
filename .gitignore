@@ -123,7 +123,10 @@ buildNumber.properties
 ## Plugin-specific files:
 
 # IntelliJ
-/out/
+.idea
+*.iml
+out
+gen
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
